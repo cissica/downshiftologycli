@@ -20,8 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instrutions herec
-Once installed, you will be prompted to enter 
+Once installed, follow the instructions to get to those recipes. 
 
 ## Development
 
