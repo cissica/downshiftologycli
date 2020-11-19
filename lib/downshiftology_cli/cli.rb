@@ -17,7 +17,7 @@ class DownshiftologyCli::CLI
             blogs
             options
         elsif input == "exit"
-            exit 
+            exit_program
         else
             invalid_entry
         end
@@ -46,8 +46,9 @@ class DownshiftologyCli::CLI
         end 
     end 
 
-    def exit
-        puts "Happy cooking! Comeback soon."
+    def exit_program
+        puts "Happy cooking! Comeback soon."    
+        exit
     end 
 
 end 

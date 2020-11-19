@@ -24,14 +24,13 @@ attr_accessor :title, :url, :summary, :ingredients, :recipe
 
     def print
         puts "#{self.title}"
+        puts "_______________________"
         puts ""
         puts "#{self.summary.fit}"
         puts ""
-        puts "Ingredients: 
-#{self.ingredients.fit}"
+        puts "Ingredients:\n#{self.ingredients.split(/(\d)/).join(",").gsub(",", "  ").fit}"
         puts ""
-        puts "Recipe: 
-#{self.recipe.fit}"
+        puts "Recipe:\n#{self.recipe.fit}"
     end 
 
     def self.find_by_number(number)

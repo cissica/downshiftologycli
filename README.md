@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-Once installed, follow the instructions to get to those recipes. 
+Once installed, type 'bundle install' in your terminal, run bin/executable and follow the instructions to get to those recipes. 
 
 ## Development
 
