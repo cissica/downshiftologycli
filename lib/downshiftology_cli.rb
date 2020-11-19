@@ -6,7 +6,7 @@ require "Nokogiri"
 require "open-uri"
 require "word_wrap"
 require 'word_wrap/core_ext'
-require "pry"
+
 
 
 
