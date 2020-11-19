@@ -20,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-Once installed, type 'bundle install' in your terminal, run bin/executable and follow the instructions to get to those recipes. 
+To install from GitHub
+1. Clone repo
+2. $ cd downshiftologycli 
+3. $ bundle install​ 
+4. run $ bin/executable
 
 ## Development
 
