@@ -6,13 +6,13 @@ Gem::Specification.new do |spec|
   spec.authors       = ["cissica"]
   spec.email         = ["cecemartinez@hotmail.com"]
 
-  spec.summary       = %q{ Lisa's most recent and popular recipes.}
-  spec.description   = %q{ Write a longer description or delete this line.}
+  spec.summary       = %q{Lisa's most recent and popular recipes.}
+  spec.description   = %q{Write a longer description or delete this line.}
   spec.homepage      = "https://github.com/cissica/downshiftologycli."
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = %q{ Set to 'http://mygemserver.com'"
+  spec.metadata["allowed_push_host"] = %q{Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/cissica/downshiftologycli."

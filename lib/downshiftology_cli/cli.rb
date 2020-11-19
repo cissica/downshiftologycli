@@ -34,7 +34,7 @@ class DownshiftologyCli::CLI
         end 
         puts "Which recipe is calling you? Enter the number."
         input = gets.to_i-1 
-        input > 11 ? invalid_entry : blog_info(input)
+        input > 11 || /\D/.match?(input.to_s) ? invalid_entry : blog_info(input) 
     end 
 
     def blog_info(blog)
@@ -47,7 +47,7 @@ class DownshiftologyCli::CLI
     end 
 
     def exit_program
-        puts "Happy cooking! Comeback soon."    
+        puts "Happy cooking! Comeback soon." 
         exit
     end 
 
