@@ -22,9 +22,10 @@ Or install it yourself as:
 
 To install from GitHub
 1. Clone repo
-2. $ cd downshiftologycli 
-3. $ bundle install​ 
-4. run $ bin/executable
+2. ' cd downshiftologycli ' into repo
+3. ' bundle install​ ' into repo
+4. Run ' bin/executable ' 
+5. Follow instructions. 
 
 ## Development
 
