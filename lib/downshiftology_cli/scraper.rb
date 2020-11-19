@@ -25,8 +25,8 @@ class Scraper
         post = Nokogiri::HTML(unparsed_page)
         post_a = {}
         post.css("div.wprm-recipe-container").each do |content|
-            post_a[:summary] = content.css("div.wprm-recipe-summary.wprm-block-text-normal span").text
-            post_a[:ingredients] = content.css("div.wprm-recipe-ingredient-group li.wprm-recipe-ingredient").text.gsub("(*see notes below about using a larger turkey)", "")
+            post_a[:summary] = content.css("div.wprm-recipe-summary.wprm-block-text-normal span").text.gsub("Make sure to watch the video above!", "")
+            post_a[:ingredients] = content.css("div.wprm-recipe-ingredient-group li.wprm-recipe-ingredient").text.gsub("*see notes below about using a larger turkey)", "")
             post_a[:recipe] = content.css("div.wprm-recipe-instruction-group ul.wprm-recipe-instructions").text 
         end 
         object.content(post_a)
