@@ -4,6 +4,12 @@ Welcome to a taste of Lisa's delicious recipes from the Downshiftology website! 
 
 ## Installation
 
+To install from GitHub
+1. Clone repo
+2. ' cd downshiftologycli ' into repo
+3. ' bundle install​ ' into repo
+4. Run ' bin/executable ' 
+
 Add this line to your application's Gemfile:
 
 ```ruby
@@ -20,12 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-To install from GitHub
-1. Clone repo
-2. ' cd downshiftologycli ' into repo
-3. ' bundle install​ ' into repo
-4. Run ' bin/executable ' 
-5. Follow instructions. 
+Follow directions to get a list of recipes, pick your number and enjoy! Type 'exit' to leave program. 
 
 ## Development
 
