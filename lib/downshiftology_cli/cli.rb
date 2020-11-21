@@ -1,8 +1,7 @@
 require "pry"
 require "word_wrap"
 class DownshiftologyCli::CLI 
-    BASE_PATH = "https://downshiftology.com/browse-recipes/"
-
+    
     def call
         puts "Welcome to some of Lisa's most popular recipes!"
         Scraper.scrape_blog_list 
